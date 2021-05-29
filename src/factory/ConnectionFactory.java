@@ -2,7 +2,7 @@ package factory;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
+
 public class ConnectionFactory {
 	
 	//Nome do user no workbench
@@ -12,7 +12,7 @@ public class ConnectionFactory {
 	
 	//caminho db, port
 	
-	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/produto";
+	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/mercado";
 	
 	
 	/*
